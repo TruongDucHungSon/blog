@@ -4,552 +4,422 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galaxy - Blog Layout</title>
-    <link rel="stylesheet" href="./style/styles2.css" />
+    <link rel="stylesheet" href="./style/css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
-    <!-- Header -->
-    <header class="header">
-      <div class="container">
-        <div class="header-content">
-          <a href="#" class="logo">Galaxy</a>
-          <div class="social-links">
-            <a href="#">f</a>
-            <a href="#">t</a>
-            <a href="#">@</a>
+    <!-- blog -->
+    <section class="blog container">
+      <!-- Featured Post -->
+      <div class="blog-featured">
+        <div class="blog-featured__image">
+          <img
+            src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/dave-herring-XrSFrTJnT0A-unsplash-400x300.jpg"
+            alt="Featured Post"
+          />
+          <span class="blog-featured__category">Typo</span>
+        </div>
+        <div class="blog-featured__content">
+          <h2 class="blog-featured__title">
+            Family-owned florist business looks to bloom in Chestertown
+          </h2>
+          <div class="blog-featured__meta">
+            <span class="blog-featured__author">Designutd</span>
           </div>
         </div>
       </div>
-    </header>
 
-    <!-- Navigation -->
-    <nav class="nav">
-      <div class="container">
-        <div class="nav-content">
-          <div>
-            <a href="#" class="logo">Galaxy</a>
+      <!-- Sidebar List -->
+      <div class="blog-sidebar">
+        <div class="blog-item">
+          <div class="blog-item__thumb">
+            <img
+              src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/vino-li-h8vM8zNXIrY-unsplash-180x180.jpg"
+              alt="Post 1"
+            />
           </div>
-
-          <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-          <ul class="nav-menu" id="navMenu">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">TRAVEL</a></li>
-            <li><a href="#">LIFESTYLE</a></li>
-            <li><a href="#">BEAUTY</a></li>
-            <li><a href="#">INSPIRATION</a></li>
-            <li><a href="#">MORE THEMES</a></li>
-          </ul>
-          <div class="nav-icons">
-            <a href="#">👤</a>
-            <a href="#">🔍</a>
+          <div class="blog-item__content">
+            <h3 class="blog-item__title">
+              Joy is a Net of Love by Which You Can Catch Souls
+            </h3>
+            <div class="blog-item__author">Designutd</div>
+            <div class="blog-item__stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="blog-item">
+          <div class="blog-item__thumb">
+            <img
+              src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/vino-li-h8vM8zNXIrY-unsplash-180x180.jpg"
+              alt="Post 1"
+            />
+          </div>
+          <div class="blog-item__content">
+            <h3 class="blog-item__title">
+              Joy is a Net of Love by Which You Can Catch Souls
+            </h3>
+            <div class="blog-item__author">Designutd</div>
+            <div class="blog-item__stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="blog-item">
+          <div class="blog-item__thumb">
+            <img
+              src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/vino-li-h8vM8zNXIrY-unsplash-180x180.jpg"
+              alt="Post 1"
+            />
+          </div>
+          <div class="blog-item__content">
+            <h3 class="blog-item__title">
+              Joy is a Net of Love by Which You Can Catch Souls
+            </h3>
+            <div class="blog-item__author">Designutd</div>
+            <div class="blog-item__stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="blog-item">
+          <div class="blog-item__thumb">
+            <img
+              src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/vino-li-h8vM8zNXIrY-unsplash-180x180.jpg"
+              alt="Post 1"
+            />
+          </div>
+          <div class="blog-item__content">
+            <h3 class="blog-item__title">
+              Joy is a Net of Love by Which You Can Catch Souls
+            </h3>
+            <div class="blog-item__meta"></div>
+            <div class="blog-item__author">Designutd</div>
+            <div class="blog-item__stars">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+              <ion-icon name="star-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat blog-item for post-2 and post-3 as needed -->
+      </div>
+    </section>
+    <!-- blog -->
+    <section class="blog-box container">
+      <div class="blog-featured">
+        <div class="blog-featured__image">
+          <img
+            src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/dave-herring-XrSFrTJnT0A-unsplash-400x300.jpg"
+            alt="Featured Post"
+          />
+          <span class="blog-featured__category">Typo</span>
+        </div>
+        <div class="blog-featured__content">
+          <h2 class="blog-featured__title">
+            Family-owned florist business looks to bloom in Chestertown
+          </h2>
+          <div class="blog-featured__meta">
+            <span class="blog-featured__author">Designutd</span>
           </div>
         </div>
       </div>
-    </nav>
+      <div class="blog-featured">
+        <div class="blog-featured__image">
+          <img
+            src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/dave-herring-XrSFrTJnT0A-unsplash-400x300.jpg"
+            alt="Featured Post"
+          />
+          <span class="blog-featured__category">Typo</span>
+        </div>
+        <div class="blog-featured__content">
+          <h2 class="blog-featured__title">
+            Family-owned florist business looks to bloom in Chestertown
+          </h2>
+          <div class="blog-featured__meta">
+            <span class="blog-featured__author">Designutd</span>
+          </div>
+        </div>
+      </div>
+      <div class="blog-featured">
+        <div class="blog-featured__image">
+          <img
+            src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/dave-herring-XrSFrTJnT0A-unsplash-400x300.jpg"
+            alt="Featured Post"
+          />
+          <span class="blog-featured__category">Typo</span>
+        </div>
+        <div class="blog-featured__content">
+          <h2 class="blog-featured__title">
+            Family-owned florist business looks to bloom in Chestertown
+          </h2>
+          <div class="blog-featured__meta">
+            <span class="blog-featured__author">Designutd</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- articles 1 -->
 
-    <!-- Main Content -->
-    <main class="main-content">
-      <div class="container">
-        <div class="content-grid">
-          <!-- Left Column -->
-          <div class="left-column">
-            <!-- Featured Article -->
-            <article class="featured-article">
+    <section class="articles-container container">
+      <main class="articles-newss">
+        <article class="article">
+          <img
+            src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/dave-herring-XrSFrTJnT0A-unsplash-400x300.jpg"
+            alt="Travel"
+            class="article__image"
+          />
+          <div class="article__content">
+            <span class="article__category">Travel</span>
+            <h2 class="article__title">
+              No Fixed Abode: Quitting Home Ownership
+            </h2>
+            <p class="article__excerpt">
+              Days fish waters gathered given made third under blessed, is face.
+              Is won’t ...
+            </p>
+          </div>
+        </article>
+        <article class="article">
+          <img
+            src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/dave-herring-XrSFrTJnT0A-unsplash-400x300.jpg"
+            alt="Travel"
+            class="article__image"
+          />
+          <div class="article__content">
+            <span class="article__category">Travel</span>
+            <h2 class="article__title">
+              No Fixed Abode: Quitting Home Ownership
+            </h2>
+            <p class="article__excerpt">
+              Days fish waters gathered given made third under blessed, is face.
+              Is won’t ...
+            </p>
+          </div>
+        </article>
+      </main>
+      <aside class="sidebar">
+        <section class="sidebar__section">
+          <h3 class="sidebar__title">Most Read</h3>
+          <ul class="sidebar__list">
+            <li class="sidebar__item">
               <img
-                src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8fDA%3D"
+                src="https://via.placeholder.com/50"
                 alt=""
+                class="sidebar__thumb"
               />
-              <div class="featured-content">
-                <span class="featured-tag">TYPO</span>
-                <h1 class="featured-title">
-                  Family-owned florist business looks to bloom in Chestertown
-                </h1>
-                <div class="author-info">
-                  <div class="author-avatar">D</div>
-                  <span class="author-name">DESIGNUTD</span>
-                </div>
-              </div>
-            </article>
+              <p class="sidebar__text">
+                Family-owned florist business looks to bloom in Chestertown
+              </p>
+            </li>
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">
+                Understanding Your Dog for Dummies Cheatsheet
+              </p>
+            </li>
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">
+                Joy is a Net of Love by Which You Can Catch Souls
+              </p>
+            </li>
+          </ul>
+        </section>
 
-            <!-- Secondary Articles -->
+        <section class="sidebar__section">
+          <h3 class="sidebar__title">Recommend</h3>
+          <ul class="sidebar__list">
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">
+                I Moved Across the Country and Never Looked Back
+              </p>
+            </li>
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">
+                A Simple Way to Address the Gap Between Attention and Intention
+              </p>
+            </li>
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">The Tattoo Taboo for the Asian Woman</p>
+            </li>
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">
+                Adjusting to Your Home is no Different than a New Country
+              </p>
+            </li>
+          </ul>
+        </section>
+      </aside>
+    </section>
+    <!-- articles 2 -->
+    <section class="articles-container container">
+      <main class="articles-newss">
+        <article class="article">
+          <img
+            src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/dave-herring-XrSFrTJnT0A-unsplash-400x300.jpg"
+            alt="Travel"
+            class="article__image"
+          />
+          <div class="article__content">
+            <span class="article__category">Travel</span>
+            <h2 class="article__title">
+              No Fixed Abode: Quitting Home Ownership
+            </h2>
+            <p class="article__excerpt">
+              Days fish waters gathered given made third under blessed, is face.
+              Is won’t ...
+            </p>
           </div>
-
-          <!-- Sidebar -->
-          <aside class="sidebar">
-            <article class="sidebar-article">
-              <div class="sidebar-image">
-                <img
-                  src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/annie-spratt-elwj-Qs8ZIE-unsplash-180x180.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="sidebar-content">
-                <h3>Joy is a Net of Love by Which You Can Catch Souls</h3>
-                <p class="sidebar-date">OCTOBER 18, 2019</p>
-              </div>
-            </article>
-
-            <article class="sidebar-article">
-              <div class="sidebar-image">
-                <img
-                  src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/alabaster-co-A4pCFLxCKFI-unsplash-180x180.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="sidebar-content">
-                <h3>
-                  Every Next Level of Your Life Will Demand a Different You
-                </h3>
-                <p class="sidebar-date">OCTOBER 18, 2019</p>
-              </div>
-            </article>
-
-            <article class="sidebar-article">
-              <div class="sidebar-image">
-                <img
-                  src="https://images.unsplash.com/photo-1518553634183-40a6deeae021?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGJsb2d8ZW58MHx8MHx8fDA%3D"
-                  alt=""
-                />
-              </div>
-              <div class="sidebar-content">
-                <h3>And a Lonely Stranger Has Spoke to Me Ever Since</h3>
-                <p class="sidebar-date">OCTOBER 18, 2019</p>
-              </div>
-            </article>
-          </aside>
-        </div>
-        <div class="secondary-box">
-          <div class="secondary-articles">
-            <article class="secondary-article">
-              <div class="secondary-image"></div>
-              <div class="secondary-content">
-                <span class="sidebar-tag">TYPO</span>
-                <h3>Understanding Your Dog for Dummies Cheatsheet</h3>
-                <p class="sidebar-date">OCTOBER 29, 2019</p>
-              </div>
-            </article>
+        </article>
+        <article class="article">
+          <img
+            src="https://themeproducers.com/suga/galaxy/wp-content/uploads/sites/17/2019/12/dave-herring-XrSFrTJnT0A-unsplash-400x300.jpg"
+            alt="Travel"
+            class="article__image"
+          />
+          <div class="article__content">
+            <span class="article__category">Travel</span>
+            <h2 class="article__title">
+              No Fixed Abode: Quitting Home Ownership
+            </h2>
+            <p class="article__excerpt">
+              Days fish waters gathered given made third under blessed, is face.
+              Is won’t ...
+            </p>
           </div>
-          <div class="secondary-articles">
-            <article class="secondary-article">
-              <div class="secondary-image"></div>
-              <div class="secondary-content">
-                <span class="sidebar-tag">TYPO</span>
-                <h3>Understanding Your Dog for Dummies Cheatsheet</h3>
-                <p class="sidebar-date">OCTOBER 29, 2019</p>
-              </div>
-            </article>
-          </div>
-          <div class="secondary-articles">
-            <article class="secondary-article">
-              <div class="secondary-image"></div>
-              <div class="secondary-content">
-                <span class="sidebar-tag">TYPO</span>
-                <h3>Understanding Your Dog for Dummies Cheatsheet</h3>
-                <p class="sidebar-date">OCTOBER 29, 2019</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-      <!-- Blog Section -->
-      <section class="blog-section">
-        <div class="container">
-          <div class="blog-section__container">
-            <!-- Main Articles -->
-            <div class="articles">
-              <!-- Article 1 -->
-              <article class="article-card">
-                <div
-                  class="article-card__image article-card__image--mountains"
-                ></div>
-                <div class="article-card__content">
-                  <span
-                    class="article-card__category article-card__category--travel"
-                    >TRAVEL</span
-                  >
-                  <h2 class="article-card__title">
-                    No Fixed Abode: Quitting Home Ownership
-                  </h2>
-                  <p class="article-card__excerpt">
-                    Days fish waters gathered given made third under blessed, is
-                    face, is won't...
-                  </p>
-                </div>
-              </article>
+        </article>
+      </main>
+      <aside class="sidebar">
+        <section class="sidebar__section">
+          <h3 class="sidebar__title">Most Read</h3>
+          <ul class="sidebar__list">
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">
+                Family-owned florist business looks to bloom in Chestertown
+              </p>
+            </li>
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">
+                Understanding Your Dog for Dummies Cheatsheet
+              </p>
+            </li>
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">
+                Joy is a Net of Love by Which You Can Catch Souls
+              </p>
+            </li>
+          </ul>
+        </section>
 
-              <!-- Article 2 -->
-              <article class="article-card">
-                <div
-                  class="article-card__image article-card__image--podcast"
-                ></div>
-                <div class="article-card__content">
-                  <span
-                    class="article-card__category article-card__category--lifestyle"
-                    >LIFESTYLE</span
-                  >
-                  <h2 class="article-card__title">
-                    Developing Self-Control Through The Wonders of Intermittent
-                    Fasting
-                  </h2>
-                  <p class="article-card__excerpt">
-                    Days fish waters gathered given made third under blessed, is
-                    face, is won't...
-                  </p>
-                </div>
-              </article>
-
-              <!-- Article 3 -->
-              <article class="article-card">
-                <div
-                  class="article-card__image article-card__image--ocean"
-                ></div>
-                <div class="article-card__content">
-                  <span
-                    class="article-card__category article-card__category--inspiration"
-                    >INSPIRATION</span
-                  >
-                  <h2 class="article-card__title">
-                    The Argument For Short Meditations
-                  </h2>
-                  <p class="article-card__excerpt">
-                    Days fish waters gathered given made third under blessed, is
-                    face, is won't...
-                  </p>
-                </div>
-              </article>
-            </div>
-
-            <!-- Sidebar -->
-            <aside class="sidebar">
-              <!-- Most Read Section -->
-              <div class="sidebar-section">
-                <h3 class="sidebar-section__title">Most Read</h3>
-                <div class="sidebar-articles">
-                  <article class="sidebar-article">
-                    <span class="sidebar-article__number">1</span>
-                    <div
-                      class="sidebar-article__image sidebar-article__image--florist"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        Family-owned florist business looks to bloom in
-                        Chestertown
-                      </h4>
-                    </div>
-                  </article>
-
-                  <article class="sidebar-article">
-                    <span class="sidebar-article__number">2</span>
-                    <div
-                      class="sidebar-article__image sidebar-article__image--dog"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        Understanding Your Dog for Dummies Cheatsheet
-                      </h4>
-                    </div>
-                  </article>
-
-                  <article class="sidebar-article">
-                    <span class="sidebar-article__number">3</span>
-                    <div
-                      class="sidebar-article__image sidebar-article__image--joy"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        Joy is a Net of Love by Which You Can Catch Souls
-                      </h4>
-                    </div>
-                  </article>
-                </div>
-              </div>
-
-              <!-- Recommend Section -->
-              <div class="sidebar-section">
-                <h3 class="sidebar-section__title">Recommend</h3>
-                <div class="sidebar-articles">
-                  <article class="sidebar-article">
-                    <div
-                      class="sidebar-article__image sidebar-article__image--florist"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        Family-owned florist business looks to bloom in
-                        Chestertown
-                      </h4>
-                    </div>
-                  </article>
-
-                  <article class="sidebar-article">
-                    <div
-                      class="sidebar-article__image sidebar-article__image--dog"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        Understanding Your Dog for Dummies Cheatsheet
-                      </h4>
-                    </div>
-                  </article>
-
-                  <article class="sidebar-article">
-                    <div
-                      class="sidebar-article__image sidebar-article__image--moved"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        I Moved Across the Country and Never Looked Back
-                      </h4>
-                    </div>
-                  </article>
-
-                  <article class="sidebar-article">
-                    <div
-                      class="sidebar-article__image sidebar-article__image--expert"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        The Expert's Guide to Surviving Long Haul Flights
-                      </h4>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </aside>
-          </div>
-        </div>
-      </section>
-      <section class="blog-section">
-        <div class="container">
-          <div class="blog-section__container">
-            <!-- Main Articles -->
-            <div class="articles">
-              <!-- Article 1 -->
-              <article class="article-card">
-                <div
-                  class="article-card__image article-card__image--mountains"
-                ></div>
-                <div class="article-card__content">
-                  <span
-                    class="article-card__category article-card__category--travel"
-                    >TRAVEL</span
-                  >
-                  <h2 class="article-card__title">
-                    No Fixed Abode: Quitting Home Ownership
-                  </h2>
-                  <p class="article-card__excerpt">
-                    Days fish waters gathered given made third under blessed, is
-                    face, is won't...
-                  </p>
-                </div>
-              </article>
-
-              <!-- Article 2 -->
-              <article class="article-card">
-                <div
-                  class="article-card__image article-card__image--podcast"
-                ></div>
-                <div class="article-card__content">
-                  <span
-                    class="article-card__category article-card__category--lifestyle"
-                    >LIFESTYLE</span
-                  >
-                  <h2 class="article-card__title">
-                    Developing Self-Control Through The Wonders of Intermittent
-                    Fasting
-                  </h2>
-                  <p class="article-card__excerpt">
-                    Days fish waters gathered given made third under blessed, is
-                    face, is won't...
-                  </p>
-                </div>
-              </article>
-
-              <!-- Article 3 -->
-              <article class="article-card">
-                <div
-                  class="article-card__image article-card__image--ocean"
-                ></div>
-                <div class="article-card__content">
-                  <span
-                    class="article-card__category article-card__category--inspiration"
-                    >INSPIRATION</span
-                  >
-                  <h2 class="article-card__title">
-                    The Argument For Short Meditations
-                  </h2>
-                  <p class="article-card__excerpt">
-                    Days fish waters gathered given made third under blessed, is
-                    face, is won't...
-                  </p>
-                </div>
-              </article>
-            </div>
-
-            <!-- Sidebar -->
-            <aside class="sidebar">
-              <!-- Most Read Section -->
-              <div class="sidebar-section">
-                <h3 class="sidebar-section__title">Most Read</h3>
-                <div class="sidebar-articles">
-                  <article class="sidebar-article">
-                    <span class="sidebar-article__number">1</span>
-                    <div
-                      class="sidebar-article__image sidebar-article__image--florist"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        Family-owned florist business looks to bloom in
-                        Chestertown
-                      </h4>
-                    </div>
-                  </article>
-
-                  <article class="sidebar-article">
-                    <span class="sidebar-article__number">2</span>
-                    <div
-                      class="sidebar-article__image sidebar-article__image--dog"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        Understanding Your Dog for Dummies Cheatsheet
-                      </h4>
-                    </div>
-                  </article>
-
-                  <article class="sidebar-article">
-                    <span class="sidebar-article__number">3</span>
-                    <div
-                      class="sidebar-article__image sidebar-article__image--joy"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        Joy is a Net of Love by Which You Can Catch Souls
-                      </h4>
-                    </div>
-                  </article>
-                </div>
-              </div>
-
-              <!-- Recommend Section -->
-              <div class="sidebar-section">
-                <h3 class="sidebar-section__title">Recommend</h3>
-                <div class="sidebar-articles">
-                  <article class="sidebar-article">
-                    <div
-                      class="sidebar-article__image sidebar-article__image--florist"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        Family-owned florist business looks to bloom in
-                        Chestertown
-                      </h4>
-                    </div>
-                  </article>
-
-                  <article class="sidebar-article">
-                    <div
-                      class="sidebar-article__image sidebar-article__image--dog"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        Understanding Your Dog for Dummies Cheatsheet
-                      </h4>
-                    </div>
-                  </article>
-
-                  <article class="sidebar-article">
-                    <div
-                      class="sidebar-article__image sidebar-article__image--moved"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        I Moved Across the Country and Never Looked Back
-                      </h4>
-                    </div>
-                  </article>
-
-                  <article class="sidebar-article">
-                    <div
-                      class="sidebar-article__image sidebar-article__image--expert"
-                    ></div>
-                    <div class="sidebar-article__content">
-                      <h4 class="sidebar-article__title">
-                        The Expert's Guide to Surviving Long Haul Flights
-                      </h4>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </aside>
-          </div>
-        </div>
-      </section>
-    </main>
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__container">
-          <!-- Left Section -->
-          <div class="footer__left">
-            <a href="#" class="footer__logo">Galaxy</a>
-            <div class="footer__copyright">
-              Suga © 2023. Made with <span class="footer__heart">♥</span> by
-              <a href="#" class="footer__copyright-link">BKNinja</a>
-            </div>
-          </div>
-
-          <!-- Right Section -->
-          <div class="footer__right">
-            <!-- Social Links -->
-            <div class="footer__social">
-              <a
-                href="#"
-                class="footer__social-link footer__social-link--facebook"
-                title="Facebook"
-                >f</a
-              >
-              <a
-                href="#"
-                class="footer__social-link footer__social-link--twitter"
-                title="Twitter"
-                >𝕏</a
-              >
-              <a
-                href="#"
-                class="footer__social-link footer__social-link--youtube"
-                title="YouTube"
-                >▶</a
-              >
-            </div>
-
-            <!-- Navigation Links -->
-            <nav class="footer__nav">
-              <a href="#" class="footer__nav-link">Home</a>
-              <a href="#" class="footer__nav-link">Hot News</a>
-              <a href="#" class="footer__nav-link">More Themes</a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script>
-      function toggleMenu() {
-        const navMenu = document.getElementById("navMenu");
-        navMenu.classList.toggle("active");
-      }
-
-      // Close menu when clicking outside
-      document.addEventListener("click", function (event) {
-        const navMenu = document.getElementById("navMenu");
-        const menuToggle = document.querySelector(".menu-toggle");
-
-        if (
-          !navMenu.contains(event.target) &&
-          !menuToggle.contains(event.target)
-        ) {
-          navMenu.classList.remove("active");
-        }
-      });
-    </script>
+        <section class="sidebar__section">
+          <h3 class="sidebar__title">Recommend</h3>
+          <ul class="sidebar__list">
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">
+                I Moved Across the Country and Never Looked Back
+              </p>
+            </li>
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">
+                A Simple Way to Address the Gap Between Attention and Intention
+              </p>
+            </li>
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">The Tattoo Taboo for the Asian Woman</p>
+            </li>
+            <li class="sidebar__item">
+              <img
+                src="https://via.placeholder.com/50"
+                alt=""
+                class="sidebar__thumb"
+              />
+              <p class="sidebar__text">
+                Adjusting to Your Home is no Different than a New Country
+              </p>
+            </li>
+          </ul>
+        </section>
+      </aside>
+    </section>
   </body>
 </html>
